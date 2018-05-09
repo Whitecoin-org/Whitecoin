@@ -1,24 +1,82 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+﻿<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+<context>
+    <name>Intro</name>
+    <message>
+        <location filename="../forms/intro.ui" line="+14"/>
+        <source>Welcome</source>
+        <translation>欢迎</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Welcome to Whitecoin.</source>
+        <translation>欢迎使用白币QT钱包。</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>You can choose where Whitecoin will store its data.</source>
+        <translation>您可以选择白币钱包数据存储目录。</translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Whitecoin will download and store a copy of the Whitecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>白币钱包程序会下载储存一份完整的白币块链(blockchain)数据。至少需要 %1 GB的存储空间，随着时间推移会需要更多的存储空间。钱包文件也储存在该目录。</translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Use the default data directory</source>
+        <translation>使用默认的数据目录</translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Use a custom data directory:</source>
+        <translation>使用自定义的数据目录：</translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Whitecoin</source>
+        <translation>白币</translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>错误：无法创建 指定的数据目录 "%1" </translation>
+    </message>
+    <message>
+    		<location line="+17"/>
+        <source>Error</source>
+        <translation>错误</translation>
+    </message>
+    <message numerus="yes">
+    		<location line="+17"/>
+        <source>%n GB of free space available</source>
+        <translation><numerusform>有 %n GB 空闲空间</numerusform></translation>
+    </message>
+    <message numerus="yes">
+    		<location line="+17"/>
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(需要%n GB空间)</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Whitecoin</source>
-        <translation>关于黑币</translation>
+        <translation>关于白币</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Whitecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;黑币客户端&lt;/b&gt; 版本</translation>
+        <translation>&lt;b&gt;白币客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Blackcoin developers</source>
-        <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
-版权所有 © 2012-2014 新星币Novacoin开发组
-版权所有 © 2014 黑币Whitecoin开发组</translation>
+        <source>Copyright ? 2009-2014 The Bitcoin developers
+Copyright ? 2012-2014 The NovaCoin developers
+Copyright ? 2014 The Blackcoin developers</source>
+        <translation>版权所有 ? 2009-2014 比特币Bitcoin开发组
+版权所有 ? 2012-2014 新星币Novacoin开发组
+版权所有 ? 2014 白币Whitecoin开发组</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,7 +124,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-43"/>
         <source>These are your Whitecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来接收支付的黑币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+        <translation>这是您用来接收支付的白币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,7 +139,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign a message to prove you own a Whitecoin address</source>
-        <translation>对信息进行签名以证明您对该黑币地址的所有权</translation>
+        <translation>对信息进行签名以证明您对该白币地址的所有权</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,7 +154,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-10"/>
         <source>Verify a message to ensure it was signed with a specified Whitecoin address</source>
-        <translation>验证信息以保证其经过指定黑币地址的签名</translation>
+        <translation>验证信息以保证其经过指定白币地址签名</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -138,6 +196,36 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Could not write to file %1.</source>
         <translation>无法写入文件 %1 。</translation>
     </message>
+    <message>
+        <location line="+13"/>
+        <source>Import QR</source>
+        <translation>识别二维码</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Copy Private Key</source>
+        <translation>复制私钥</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Copy Public Key</source>
+        <translation>复制公钥</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Copy Address KeyID</source>
+        <translation>复制地址ID</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>&amp;Print</source>
+        <translation>打印(&amp;P)</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Import PrivKey</source>
+        <translation>导入私钥</translation>
+    </message>
 </context>
 <context>
     <name>AddressTableModel</name>
@@ -155,6 +243,62 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+36"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
+    </message>
+</context>
+<context>
+    <name>ImpPrivKeyDialog</name>
+    <message>
+        <location filename="../utilitydialog.cpp" line="+145"/>
+        <source>Invalid private key</source>
+        <translation>错误的私钥</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Wallet is unlocked for staking only</source>
+        <translation>钱包被锁定用于挖矿</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>This key has already existed</source>
+        <translation>私钥已存在</translation>
+    </message>
+</context>
+<context>
+    <name>ImpPrivKeyDialog</name>
+    <message>
+        <location filename="../forms/impprivkeydialog.ui" line="+26"/>
+        <source>Import whitecoin into your wallet</source>
+        <translation>导入白币到钱包</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Import PrivateKey</source>
+        <translation>导入私钥</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Key:</source>
+        <translation>私钥：</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Note: this operation will rebuild the index data and wait for a long time</source>
+        <translation>注意：此操作将重建数据索引，需等待较长时间</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Exit</source>
+        <translation>退出</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Error adding key to wallet</source>
+        <translation>加入钱包发生错误</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>The import has completed</source>
+        <translation>已完成导入钱包</translation>
     </message>
 </context>
 <context>
@@ -232,7 +376,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的黑币将会丢失！</translation>
+        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的白币将会丢失！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -264,7 +408,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+82"/>
         <source>Whitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>黑币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
+        <translation>白币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -323,7 +467,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+17"/>
         <source>&amp;Transactions</source>
-        <translation>交易记录(&amp;T)</translation>
+        <translation>交易记录</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -333,7 +477,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>地址簿(&amp;A)</translation>
+        <translation>地址簿</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Statistics</source>
+        <translation>&amp;统计资料</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Block Explorer</source>
+        <translation>&amp;区块浏览</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -358,7 +512,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Whitecoin</source>
-        <translation>显示关于黑币的信息</translation>
+        <translation>显示关于白币的信息</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -398,7 +552,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-55"/>
         <source>Send coins to a Whitecoin address</source>
-        <translation>向指定的地址发送黑币</translation>
+        <translation>向指定的地址发送白币</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -444,7 +598,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-214"/>
         <location line="+555"/>
         <source>Whitecoin</source>
-        <translation>黑币</translation>
+        <translation>白币</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -454,7 +608,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+193"/>
         <source>&amp;About Whitecoin</source>
-        <translation>关于黑币(&amp;A)</translation>
+        <translation>关于白币(&amp;A)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -492,6 +646,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>帮助(&amp;H)</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>&amp;Print paper wallets</source>
+        <translation>纸钱包打印(&amp;P)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Broadcast</source>
+        <translation>广播数据(&amp;B)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Broadcast Data to Network</source>
+        <translation>向网络广播数据</translation>
+    </message>
+    <message>
         <location line="+17"/>
         <source>Tabs toolbar</source>
         <translation>分页工具栏</translation>
@@ -506,12 +675,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+0"/>
         <location line="+58"/>
         <source>Whitecoin client</source>
-        <translation>黑币客户端</translation>
+        <translation>白币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
         <source>%n active connection(s) to Whitecoin network</source>
-        <translation><numerusform>与黑币网络建立了 %n 个连接</numerusform></translation>
+        <translation><numerusform>与白币网络建立了 %n 个连接</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -536,22 +705,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的黑币</translation>
+        <translation>未进行权益增值，因为钱包中没有成熟的白币</translation>
     </message>
     <message>
         <location line="-812"/>
         <source>&amp;Dashboard</source>
-        <translation>操控板(&amp;D)</translation>
+        <translation>我的钱包</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Receive</source>
-        <translation>接收黑币(&amp;R)</translation>
+        <translation>接收白币</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send</source>
-        <translation>发送黑币(&amp;S)</translation>
+        <translation>发送白币</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -579,9 +748,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>发送交易</translation>
     </message>
     <message>
+        <location line="+27"/>
+        <source>Transactions &amp;Report</source>
+        <translation>交易汇总</translation>
+    </message>
+    <message>
         <location line="+1"/>
         <source>Incoming transaction</source>
         <translation>流入交易</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Browse transaction report</source>
+        <translation>查看交易报表</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -606,7 +785,7 @@ Address: %4
         <location line="-15"/>
         <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid Whitecoin address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的黑币地址或错误的URI参数。</translation>
+        <translation>无法解析URI：无效的白币地址或错误的URI参数。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -729,7 +908,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
         <source>A fatal error occurred. Whitecoin can no longer continue safely and will quit.</source>
-        <translation>发生严重错误，黑币客户端即将关闭。</translation>
+        <translation>发生严重错误，白币客户端即将关闭。</translation>
     </message>
 </context>
 <context>
@@ -745,7 +924,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>黑币控制</translation>
+        <translation>白币控制</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1056,7 +1235,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Whitecoin address.</source>
-        <translation>“%1” 不是有效的黑币地址。</translation>
+        <translation>“%1” 不是有效的白币地址。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1075,7 +1254,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
         <source>Whitecoin-Qt</source>
-        <translation>黑币客户端Whitecoin-Qt</translation>
+        <translation>白币客户端</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1148,12 +1327,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+31"/>
         <source>Automatically start Whitecoin after logging in to the system.</source>
-        <translation>开机自动启动黑币客户端</translation>
+        <translation>开机自动启动白币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Whitecoin on system login</source>
-        <translation>开机时自动启动黑币客户端(&amp;S)</translation>
+        <translation>开机时自动启动白币客户端(&amp;S)</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1163,7 +1342,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>Automatically open the Whitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>路由器自动打开黑币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+        <translation>路由器自动打开白币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,17 +1417,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Whitecoin.</source>
-        <translation>在此设置用户界面语言。重启黑币客户端后设置生效。</translation>
+        <translation>在此设置用户界面语言。重启白币客户端后设置生效。</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>黑币金额单位(&amp;U)：</translation>
+        <translation>白币金额单位(&amp;U)：</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择黑币单位。</translation>
+        <translation>选择白币单位。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1258,12 +1437,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示黑币控制选项(仅用于专家用户)</translation>
+        <translation>显示白币控制选项(仅用于专家用户)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation>使用最小币龄或者随机来选择黑币的输出</translation>
+        <translation>使用最小币龄或者随机来选择白币的输出</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1272,8 +1451,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Use black visual theme (requires restart)</source>
-        <translation>使用黑色主题(需要重启钱包)</translation>
+        <source>Use blue visual theme (requires restart)</source>
+        <translation>使用蓝色主题(需要重启钱包)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1329,7 +1508,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-173"/>
         <source>Stake:</source>
-        <translation>用于权益累积：</translation>
+        <translation>权益正在成熟：</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -1398,7 +1577,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start whitecoin: click-to-pay handler</source>
-        <translation>无法启动黑币: 点击支付处理器</translation>
+        <translation>无法启动白币: 点击支付处理器</translation>
     </message>
 </context>
 <context>
@@ -1457,6 +1636,160 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
         <translation>PNG图片(*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>用户代理</translation>
+    </message>
+    <message>
+        <source>Node/Service</source>
+        <translation>节点/服务</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping 时间</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionReport</name>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>今天</translation>
+    </message>
+    <message>
+        <source>Yesterday</source>
+        <translation>昨天</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>本周</translation>
+    </message>
+    <message>
+        <source>Last week</source>
+        <translation>上周</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>本月</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>上月</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>今年</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>范围...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>接收于</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>发送给</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>到自己</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>挖矿所得</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>其他</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>输入地址或标签进行搜索</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>最小金额</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>导出交易历史</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>导出失败</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>导出交易历史到 %1 时发生错误。</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>导出成功</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>交易历史已成功保存到 %1。</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>逗号分隔文件 (*.csv)</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>类别</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>标签</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>地址</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>金额</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>范围：</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>到</translation>
+    </message>
+    <message>
+        <source>AddressLabel</source>
+        <translation>地址标签名</translation>
+    </message>
+    <message>
+        <source>DateRange</source>
+        <translation>日期范围</translation>
+    </message>
+    <message>
+        <source>Payment amount</source>
+        <translation>支付金额</translation>
+    </message>
+    <message>
+        <source>Number of payments</source>
+        <translation>支付笔数</translation>
     </message>
 </context>
 <context>
@@ -1586,12 +1919,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-104"/>
         <source>Whitecoin - Debug window</source>
-        <translation>黑币客户端-调试窗口</translation>
+        <translation>白币客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Whitecoin Core</source>
-        <translation>黑币核心进程</translation>
+        <translation>白币核心进程</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1611,7 +1944,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
         <source>Welcome to the Whitecoin RPC console.</source>
-        <translation>欢迎使用黑币RPC控制台。</translation>
+        <translation>欢迎使用白币RPC控制台。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1657,6 +1990,90 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+2"/>
         <source>%1 h %2 m</source>
         <translation>%1 时 %2 分</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <location line="+5"/>
+        <translation>同伴节点(&amp;P)</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <location line="+5"/>
+        <translation>选择节点查看详细信息。</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <location line="+5"/>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <location line="+5"/>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <location line="+5"/>
+        <translation>用户代理</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <location line="+5"/>
+        <translation>Ping时间</translation>
+    </message>
+    <message>
+        <source>Node/Services</source>
+        <location line="+5"/>
+        <translation>节点/服务</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <location line="+5"/>
+        <translation>服务</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>开始高度</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>同步高度</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>禁止得分</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>连接时间</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>最后发送</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>最后接收</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>发送字节</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>接收字节</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping 时间</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>时间偏移</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>上一数据块时间</translation>
     </message>
 </context>
 <context>
@@ -1792,7 +2209,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
         <source>Enter a Whitecoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>输入黑币地址(例如：WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <translation>输入白币地址(例如：WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1892,7 +2309,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+247"/>
         <source>WARNING: Invalid Whitecoin address</source>
-        <translation>警告：无效的黑币地址</translation>
+        <translation>警告：无效的白币地址</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1903,6 +2320,51 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
         <translation>警告：未知的零钱地址</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Send To QR</source>
+        <translation>扫二维码支付</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Quick Send</source>
+        <translation>敏捷支付</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Quickly sending may need to create several transactions ,so this payment need more time and fee. Are you sure you want to send ?</source>
+        <translation>敏捷支付可能会产生多次支付，因此需要更多手续费和时间，你确定发送币？</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Please fill in the amount of the transaction.</source>
+        <translation>请填上交易金额。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Please fill in the address of the transaction.</source>
+        <translation>请填上交易地址。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unlock wallet was fail</source>
+        <translation>钱包解锁失败</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Please set CoinControl true.</source>
+        <translation>请打开币控制开关</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%1 whitecoins had been sent,the remaining %2 whitecoins continue ?</source>
+        <translation>%1个白币已经发送，剩余%2个白币继续发送吗？</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>TX HEX</source>
+        <translation>交易代码</translation>
     </message>
 </context>
 <context>
@@ -1966,7 +2428,93 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Whitecoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>输入一个黑币地址 (例：WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <translation>输入一个白币地址 (例：WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Remark</source>
+        <translation>附言</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Insert additional information into your transaction</source>
+        <translation>为你的交易输入附言</translation>
+    </message>
+</context>
+<context>
+    <name>SnapWidget</name>
+    <message>
+        <location filename="../forms/snapwidget.ui" line="+14"/>
+        <source>Scan QR Code</source>
+        <translation>扫描二维码信息</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Snap</source>
+        <translation>扫描</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>StatisticsPage</name>
+    <message>
+        <location filename="../forms/statisticspage.ui" line="+212"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;General Informations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;一般资料&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Height&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;当前区块高度&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Mining Phase&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;当前挖矿阶段&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Connections:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;已连接节点个数：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;POS difficulty&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;POS难度值&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Total Volume:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;当前全网总量&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Your stake weight&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;你正在挖矿的币量&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Network stake weight&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;全网挖矿的币量&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Stake Rewarde:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;当前每块报酬&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Coins In Circulation:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;当前流通量&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Update Statistics</source>
+        <translation>更新统计信息</translation>
     </message>
 </context>
 <context>
@@ -2027,7 +2575,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Whitecoin address</source>
-        <translation>对该消息进行签名以证明您对该黑币地址的所有权</translation>
+        <translation>对该消息进行签名以证明您对该白币地址的所有权</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2054,12 +2602,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>用来签名该消息的黑币地址(例： WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <translation>用来签名该消息的白币地址(例： WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Whitecoin address</source>
-        <translation>确认该消息以保证它经由指定的黑币地址签名</translation>
+        <translation>确认该消息以保证它经由指定的白币地址签名</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2070,7 +2618,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Whitecoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>输入黑币地址(例： WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <translation>输入白币地址(例： WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2080,7 +2628,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Enter Whitecoin signature</source>
-        <translation>输入黑币签名</translation>
+        <translation>输入白币签名</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2334,6 +2882,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+67"/>
         <source>unknown</source>
         <translation>未知</translation>
+    </message>
+    <message>
+        <location line="+67"/>
+        <source>Decode Remark</source>
+        <translation>附言</translation>
     </message>
 </context>
 <context>
@@ -2645,6 +3198,79 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>to</source>
         <translation>到</translation>
     </message>
+    <message>
+        <location line="+8"/>
+        <source>Total:</source>
+        <translation>合计：</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Date:</source>
+        <translation>日期：</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>All:</source>
+        <translation>全部：</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Type:</source>
+        <translation>类型：</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Show transaction total</source>
+        <translation>显示交易总和</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Export all transactions</source>
+        <translation>导出全部交易记录</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Broadcast this transaction</source>
+        <translation>广播本次交易</translation>
+    </message>
+</context>
+<context>
+    <name>SendRawDialog</name>
+    <message>
+        <location filename="../sendrawdialog.cpp" line="+212"/>
+        <source>TX decode failed</source>
+        <translation>交易ID解码失败</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>No information available about transaction</source>
+        <translation>没有可用的交易信息</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>TX rejected</source>
+        <translation>交易被拒绝</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Input your hex string :</source>
+        <translation>输入二进制数据：</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Broadcast Data</source>
+        <translation>数据广播窗口</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Broadcast</source>
+        <translation>广播</translation>
+    </message>
+    <message>
+    		<location line="+8"/>
+        <source>Exit</source>
+        <translation>关闭</translation>
+    </message>
 </context>
 <context>
     <name>WalletModel</name>
@@ -2655,11 +3281,58 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
 </context>
 <context>
+    <name>PaperWalletDialog</name>
+    <message>
+        <source>Warning: Network Activity Detected</source>
+        <translation>警告：网络活动检测</translation>
+    </message>
+    <message>
+        <source>It is recommended to disconnect from the internet before printing paper wallets. Even though paper wallets are generated on your local computer, it is still possible to unknowingly have malware that transmits your screen to a remote location. It is also recommended to print to a local printer vs a network printer since that network traffic can be monitored. Some advanced printers also store copies of each printed document. Proceed with caution relative to the amount of value you plan to store on each address.</source>
+        <translation>建议打印纸钱包之前从网上断开。尽管纸钱包是在您的本地计算机生成的，恶意软件仍有可能在不知不觉中将你的屏幕发送到远程。还建议打印到本地打印机和网络打印机之后，可以对网络流量进行监控。此外一些先进的打印机会存储每个打印文档的副本。因此，请对你的计划谨慎行事。</translation>
+    </message>
+    <message>
+        <source>Print Your Paper Wallets</source>
+        <translation>打印你的纸钱包</translation>
+    </message>
+    <message>
+        <source>Very New Address</source>
+        <translation>最新地址</translation>
+    </message>
+    <message>
+        <source>New Address</source>
+        <translation>最新地址</translation>
+    </message>
+    <message>
+        <source>Public Key:</source>
+        <translation>公匙：</translation>
+    </message>
+    <message>
+        <source>Many Wallets?</source>
+        <translation>钱包个数？</translation>
+    </message>
+    <message>
+        <source>Number of Wallets?</source>
+        <translation>钱包个数？</translation>
+    </message>
+    <message>
+        <source>So Print</source>
+        <translation>开始打印</translation>
+    </message>
+    <message>
+        <source>Print Wallet</source>
+        <translation>打印钱包</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+</context>
+<context>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
         <source>Whitecoin version</source>
-        <translation>黑币客户端 版本</translation>
+        <translation>白币客户端 版本</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2842,7 +3515,7 @@ alertnotify=echo %%s | mail -s &quot;Whitecoin Alert&quot; admin@foo.com
     <message>
         <location line="-103"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Whitecoin will not work properly.</source>
-        <translation>警告：请确认您计算机的本地时间。如果时钟错误，黑币客户端将不能正常工作。</translation>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，白币客户端将不能正常工作。</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3141,7 +3814,7 @@ alertnotify=echo %%s | mail -s &quot;Whitecoin Alert&quot; admin@foo.com
     <message>
         <location line="+8"/>
         <source>Initialization sanity check failed. Whitecoin is shutting down.</source>
-        <translation>初始化完整性检查失败。 黑币客户端即将关闭。</translation>
+        <translation>初始化完整性检查失败。 白币客户端即将关闭。</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3262,7 +3935,7 @@ alertnotify=echo %%s | mail -s &quot;Whitecoin Alert&quot; admin@foo.com
     <message>
         <location line="+124"/>
         <source>Unable to bind to %s on this computer. Whitecoin is probably already running.</source>
-        <translation>无法绑定到该计算机上的 %s. 黑币客户端可能已在运行中。</translation>
+        <translation>无法绑定到该计算机上的 %s. 白币客户端可能已在运行中。</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3297,7 +3970,7 @@ alertnotify=echo %%s | mail -s &quot;Whitecoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Whitecoin is probably already running.</source>
-        <translation>无法从数据目录 %s 获得锁定.  黑币客户端可能已在运行中.</translation>
+        <translation>无法从数据目录 %s 获得锁定.  白币客户端可能已在运行中.</translation>
     </message>
     <message>
         <location line="+4"/>

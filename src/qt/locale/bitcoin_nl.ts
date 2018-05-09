@@ -18,7 +18,8 @@ Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De Blackcoin ontwikkelaars</translation>
+Copyright © 2014 De Blackcoin ontwikkelaars
+</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1274,7 +1275,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Use black visual theme (requires restart)</source>
+        <source>Use blue visual theme (requires restart)</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="en">
 <context>
@@ -329,6 +329,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+5"/>
         <source>&amp;Address Book</source>
         <translation>&amp;Address Book</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Statistics</source>
+        <translation>&amp;Statistics</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Block Explorer</source>
+        <translation>&amp;Block Explorer</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1281,7 +1291,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Use black visual theme (requires restart)</source>
+        <source>Use blue visual theme (requires restart)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

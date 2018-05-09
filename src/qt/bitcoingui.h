@@ -11,11 +11,14 @@ class ClientModel;
 class WalletModel;
 class TransactionView;
 class OverviewPage;
+class StatisticsPage;
+class BlockBrowser;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
 class Notificator;
 class RPCConsole;
+class TransactionReport;
 
 QT_BEGIN_NAMESPACE
 class QLabel;
@@ -23,6 +26,7 @@ class QModelIndex;
 class QProgressBar;
 class QStackedWidget;
 QT_END_NAMESPACE
+
 
 /**
   Bitcoin GUI main class. This class represents the main window of the Bitcoin UI. It communicates with both the client and
@@ -61,10 +65,14 @@ private:
     QStackedWidget *centralStackedWidget;
 
     OverviewPage *overviewPage;
+    StatisticsPage *statisticsPage;
+    BlockBrowser *blockBrowser;
+
     QWidget *transactionsPage;
+    QWidget *transactionsReportPage;
     AddressBookPage *addressBookPage;
     AddressBookPage *receiveCoinsPage;
-    SendCoinsDialog *sendCoinsPage;
+    SendCoinsDialog *sendCoinsPage;    
     SignVerifyMessageDialog *signVerifyMessageDialog;
 
     QLabel *labelEncryptionIcon;
@@ -76,10 +84,14 @@ private:
 
     QMenuBar *appMenuBar;
     QAction *overviewAction;
+
     QAction *historyAction;
+    QAction *reportAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
     QAction *addressBookAction;
+    QAction *statisticsAction;
+    QAction *blockAction;
     QAction *signMessageAction;
     QAction *verifyMessageAction;
     QAction *aboutAction;
@@ -94,10 +106,13 @@ private:
     QAction *lockWalletAction;
     QAction *aboutQtAction;
     QAction *openRPCConsoleAction;
+    QAction *paperWalletAction;
+    QAction *broadcastAction;
 
     QSystemTrayIcon *trayIcon;
     Notificator *notificator;
     TransactionView *transactionView;
+    TransactionReport *transactionReport;
     RPCConsole *rpcConsole;
 
     QMovie *syncIconMovie;
@@ -148,6 +163,14 @@ public slots:
 private slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+
+    /** Switch to statistics page*/
+    void gotoStatisticsPage();
+    /** Switch to account report page */
+    void gotoTransactionsReportPage();
+
+    /** Switch to block explorer*/
+    void gotoBlockBrowser();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */
@@ -155,12 +178,14 @@ private slots:
     /** Switch to receive coins page */
     void gotoReceiveCoinsPage();
     /** Switch to send coins page */
-    void gotoSendCoinsPage();
+    void gotoSendCoinsPage(QString addr = "");
 
     /** Show Sign/Verify Message dialog and switch to sign message tab */
     void gotoSignMessageTab(QString addr = "");
     /** Show Sign/Verify Message dialog and switch to verify message tab */
     void gotoVerifyMessageTab(QString addr = "");
+    /** Import a wallet from a string */
+    void importWallet(QString privateKey);
 
     /** Show configuration dialog */
     void optionsClicked();
@@ -196,6 +221,9 @@ private slots:
 
     /** called by a timer to check if fRequestShutdown has been set **/
     void detectShutdown();
+    
+    void printPaperWallets();
+    void broadcastClicked();
 };
 
 #endif // BITCOINGUI_H
